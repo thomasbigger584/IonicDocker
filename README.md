@@ -36,4 +36,5 @@ docker run --rm -v $(pwd):/ionicapp ionic-builder:latest ionic cordova build and
 Useful alias to hide docker
 ```
  export alias ionicw='docker run --rm -v $(pwd):/ionicapp -p 8100:8100 ionic-builder:latest'
+ ionicw ionic serve
 ```
