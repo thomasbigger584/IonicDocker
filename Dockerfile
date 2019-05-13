@@ -1,10 +1,3 @@
-# docker build -t ionic-builder:latest --no-cache .
-# export alias ionicw='docker run --rm -v $(pwd):/ionicapp -p 8100:8100 ionic-builder:latest'
-# docker run -t --rm -v $(pwd):/ionicapp ionic-builder:latest
-# docker run --rm -v $(pwd):/ionicapp -p 8100:8100 ionic-builder:latest ionic serve
-# docker run --rm -v $(pwd):/ionicapp ionic-builder:latest ionic build android
-# docker run --rm -v $(pwd):/ionicapp ionic-builder:latest ionic cordova build android
-
 FROM ubuntu:xenial
 
 # NOTE: node js version should be a whole number and not a decimal
